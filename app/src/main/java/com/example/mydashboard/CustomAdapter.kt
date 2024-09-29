@@ -7,6 +7,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
+import com.example.mydashboard.room.User
 
 class CustomAdapter(private val context: Context):
     RecyclerView.Adapter<CustomAdapter.ContactViewHolder>(){

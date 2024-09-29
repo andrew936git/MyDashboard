@@ -1,4 +1,4 @@
-package com.example.mydashboard
+package com.example.mydashboard.viewpager2
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -6,8 +6,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
-import com.example.mydashboard.databinding.FragmentGalleryBinding
-import com.example.mydashboard.databinding.FragmentViewPagerBinding
+import com.example.mydashboard.R
 
 class ViewPagerFragment : Fragment() {
 

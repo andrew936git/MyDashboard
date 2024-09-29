@@ -1,4 +1,4 @@
-package com.example.mydashboard
+package com.example.mydashboard.fragments
 
 import android.annotation.SuppressLint
 import android.os.Bundle
@@ -7,7 +7,10 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.FragmentTransaction
+import com.example.mydashboard.OnSwitchToFragment
+import com.example.mydashboard.R
 import com.example.mydashboard.databinding.FragmentMainBinding
+import com.example.mydashboard.room.User
 
 
 class MainFragment : Fragment(R.layout.fragment_main), OnSwitchToFragment {

@@ -1,8 +1,7 @@
-package com.example.mydashboard
+package com.example.mydashboard.viewpager2
 
 import androidx.core.os.bundleOf
 import androidx.fragment.app.Fragment
-import androidx.fragment.app.FragmentActivity
 import androidx.viewpager2.adapter.FragmentStateAdapter
 
 class ViewPagerAdapter(fragment: Fragment, val viewPagerList: MutableList<Picture>):

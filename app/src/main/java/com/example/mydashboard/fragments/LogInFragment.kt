@@ -1,4 +1,4 @@
-package com.example.mydashboard
+package com.example.mydashboard.fragments
 
 import android.annotation.SuppressLint
 import android.os.Bundle
@@ -6,12 +6,11 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.Toast
-import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.FragmentTransaction
-import androidx.lifecycle.ViewModelProvider
+import com.example.mydashboard.OnSwitchToFragment
+import com.example.mydashboard.R
 import com.example.mydashboard.databinding.FragmentLogInBinding
-import kotlin.concurrent.fixedRateTimer
+import com.example.mydashboard.room.User
 
 
 class LogInFragment : Fragment(R.layout.fragment_log_in), OnSwitchToFragment {

@@ -1,4 +1,4 @@
-package com.example.mydashboard
+package com.example.mydashboard.room
 
 import android.os.Parcel
 import android.os.Parcelable
@@ -6,8 +6,6 @@ import androidx.room.ColumnInfo
 import androidx.room.Entity
 import androidx.room.Index
 import androidx.room.PrimaryKey
-import androidx.room.util.TableInfo
-import java.io.Serializable
 
 @Entity(tableName = "user_table", indices = [Index(value = ["name"], unique = true)])
 class User(

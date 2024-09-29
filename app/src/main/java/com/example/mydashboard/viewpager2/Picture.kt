@@ -1,5 +1,6 @@
-package com.example.mydashboard
+package com.example.mydashboard.viewpager2
 
+import com.example.mydashboard.R
 import java.io.Serializable
 
 class Picture(val image: Int): Serializable {

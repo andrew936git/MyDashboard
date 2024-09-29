@@ -1,4 +1,4 @@
-package com.example.mydashboard
+package com.example.mydashboard.room
 
 import android.app.Application
 import androidx.lifecycle.AndroidViewModel

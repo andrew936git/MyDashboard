@@ -1,12 +1,13 @@
-package com.example.mydashboard
+package com.example.mydashboard.fragments
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import androidx.fragment.app.FragmentActivity
 import com.example.mydashboard.databinding.FragmentGalleryBinding
+import com.example.mydashboard.viewpager2.Picture
+import com.example.mydashboard.viewpager2.ViewPagerAdapter
 
 
 class GalleryFragment : Fragment() {
