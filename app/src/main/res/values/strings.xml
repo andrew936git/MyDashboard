@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">MyDashboard</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="login">Регистрация</string>
+    <string name="signin">Войти</string>
+    <string name="users">Пользователи</string>
+    <string name="exit">Выход</string>
+    <string name="logInText">Регистрация пользователя</string>
+    <string name="loginETHint">Введите логин</string>
+    <string name="passwordETHint">Введите пароль</string>
+    <string name="saveButton">Зарегистрироваться</string>
+    <string name="sign_in">Вход в аккаунт</string>
+    <string name="signInBTText">Войти</string>
+    <string name="textListFragment">Список пользователей</string>
+    <string name="gallery">Галерея</string>
+</resources>
